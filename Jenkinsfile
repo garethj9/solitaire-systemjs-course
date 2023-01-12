@@ -28,18 +28,18 @@ node {
 }
 
 // demoing a second agent
-node('mac') {
-    // on windows use: bat 'dir'
-    sh 'ls'
+// node('mac') {
+//     // on windows use: bat 'dir'
+//     sh 'ls'
 
-    // on windows use: bat 'del /S /Q *'
-    sh 'rm -rf *'
+//     // on windows use: bat 'del /S /Q *'
+//     sh 'rm -rf *'
 
-    unstash 'everything'
+//     unstash 'everything'
 
-    // on windows use: bat 'dir'
-    sh 'ls'
-}
+//     // on windows use: bat 'dir'
+//     sh 'ls'
+// }
 
 //parallel integration testing
 stage 'Browser Testing'
