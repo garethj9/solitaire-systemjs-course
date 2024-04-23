@@ -1,4 +1,4 @@
-This project is written in AngularJS.
+This project is written in AngularJS. 
 This is different from later versions of Angular which introduced Typescript.
 
 (From the Wiki)
